@@ -45,6 +45,10 @@ nav button{
   font-weight: bold;
 }
 
+nav button:hover{
+  
+}
+
 section{
   clear: both;
   display: flex;
