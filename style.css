@@ -1,0 +1,131 @@
+#blocksicon{
+  height: 24px;
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src:url(./Roboto/Roboto-Regular.ttf);
+}
+
+body{
+  font-family: 'Roboto-Regular', Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  color: #848484;
+  background-color: #fff;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #323232;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+nav{
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+nav button{
+  display: inline-block;
+  border: 0px;
+  border-radius: 4px;
+  padding: 10px 15px 10px 15px;
+  background-color: #3c78dc;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+section{
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+section input{
+  display: flex;
+  margin: 20px;
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  border:1px solid #dfe0e5;
+  background-color: transparent;
+  box-sizing: border-box; /*Permet de mettre la bordure contenue dans le padding*/
+}
+
+
+section input:hover{
+  /*box-shadow: 3px 3px #dfe0e5, -3px -3px 3px #dfe0e5;*/
+  box-shadow: 2px 2px 10px 2px #dfe0e5;
+  border: none;
+}
+
+section input:focus{
+  outline: none;
+}
+
+section button{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  flex-direction: row;;
+  justify-content: center;
+  align-items: center;
+  color: #323232;
+  border: 0px;
+  border-radius: 5px;
+}
+
+section button:hover{
+  border: 1px solid #323232;
+}
+
+#doodlesearch{
+justify-content:
+}
+
+footer{
+  border-top: 1px solid #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footertop{
+  border-bottom: 1px solid #e4e4e4;
+  padding-left: 30px;
+  line-height: 40px;
+  width: 100%;
+}
+
+.footerbottom{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  line-height: 40px;
+  width: 100%;
+}
+
+.footerbottom a{
+  color: #848484;
+  padding-left: 30px;
+}
