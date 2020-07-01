@@ -45,8 +45,8 @@ nav button{
   font-weight: bold;
 }
 
-nav button:hover{
-  
+nav button:active{
+  outline-color: none;
 }
 
 section{
@@ -95,6 +95,7 @@ section button{
 
 section button:hover{
   border: 1px solid #323232;
+  border: none;
 }
 
 #doodlesearch{
